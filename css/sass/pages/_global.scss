@@ -1,0 +1,13 @@
+//--> Main Rules
+* { @include prefixAll(box-sizing, border-box); font-family: "Times New Roman", sans-serif }
+
+//--> Make Style For Body
+body {
+    --main-Color: #{$mainColor};
+    background-color: #000; 
+    color: #FFF; 
+    overflow: hidden;
+}
+
+//--> Style Of Main COntainer
+.container { width: 85%; margin: auto }

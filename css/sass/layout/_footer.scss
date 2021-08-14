@@ -1,0 +1,69 @@
+//======================================= Start Footer ============================
+//--> Contact US
+.contact {
+    background-color: #232323;
+    border-top: 5px solid #3f3f3f;
+    .container { border-bottom: 3px solid #313131; padding-top: 50px; padding-bottom: 50px }
+    h3 { margin-top: 0; color: #505050; margin-bottom: 10px }
+    //--> Link
+    .link {
+        float: left;
+        width: 55%;
+        padding-right: 5%;
+        border-right: 3px solid #313131;
+        div:not(.clearFix) { float: left; width: 48%; margin: 0 2% 10px 0 }
+        ul { 
+            list-style: none; margin: 0; padding: 0;
+            li { 
+                padding-bottom: 10px; color: #979797; cursor: pointer;
+                span { font-size: 9px }
+                &:hover { color: var(--main-Color) }
+            }
+        }
+    }
+    //--> Social Links
+    .social_Links { 
+        float: right; width: 40%;
+        ul { 
+            list-style: none; margin: 0 0 70px 0; padding: 0;
+            li {
+                display: inline-block;
+                padding: 8px;
+                background-color: #3f3f3f;
+                color: #989898;
+                border-radius: 50%;
+                margin-right: 15px;
+                cursor: pointer;
+                @include prefixAll(transition, all .5s ease-in-out);
+                &:hover { color : #FFF; background-color: var(--main-Color) }
+            }
+        }
+        form { 
+            color: #c7ced6;
+            margin-top: 7px;
+            font-size: 13px;
+            input { width: 65%; margin-right: 4% }
+            input, button {
+                border-radius: 6px;
+                border-color: transparent;
+                padding: 10px;
+                background-color: #3e3e3e;
+                font-size: 16px;
+            }
+            button { 
+                color: var(--main-Color);
+                width: 30%;
+                margin-right: 0;
+                @include prefixAll(transition, all .5s ease-in-out);
+                &:hover { background-color: var(--main-Color); color: #EEE }
+            }
+        }
+    }
+}
+//--> Footer
+footer { 
+    background-color: #232323; padding-top: 10px; padding-bottom: 25px; color: #979797;
+    .copy { margin: 0; float: left }
+    .by { margin: 0; float: right }
+}
+//======================================= End Footer ============================

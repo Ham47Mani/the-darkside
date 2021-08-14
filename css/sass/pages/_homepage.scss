@@ -1,0 +1,12 @@
+//======================================= Start  ============================
+.portfolios { 
+    padding-top: 70px; padding-bottom: 70px;
+    article { 
+        width: 24%; margin-right: 1%; float: left;
+        h2 { color: #232323; margin-top: 0; margin-bottom: 0 }
+        p { color: #989898 }
+        img { padding: 5px; border: 3px solid #232323 }
+        span { color: var(--main-Color) }
+    }
+}
+//======================================= End  ============================
